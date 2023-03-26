@@ -1,0 +1,93 @@
+CS 3200: Web Application Development I
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin .....
+git push -u origin main
+
+
+
+
+
+
+DOM: document object model
+
+errors appear in the console tab
+
+user events
+	target element
+		div, 
+	event
+		click, hover, etc
+	handler / listener (a function, code)
+		outcome or action, what happens when button is clicked
+		
+dictionaries are called objects	
+
+Ajax: asyncronous javascript and xml/json
+
+
+request:
+	method (verb)
+	path (/) (noun)
+	headers
+	body
+	
+response:
+	status code
+	headers
+	body
+	
+	
+	
+subject is path, verb is method
+
+idempotent:
+	may be repeated without consequence
+	
+read about CORS
+	cross origin resource sharing
+	read through simple requests
+	stop at preflighted requests
+
+
+Exam 1 review:
+
+server
+    REST
+        restapitutorial.com
+        representational state transfer
+        constraints
+        uniform interface
+            
+    HTTP
+        requests
+        responses
+        headers
+    json
+    CORS
+    
+
+
+client
+    ajax
+    asynchronous
+    dom
+        queries
+        events
+        
+
+databases
+    tables
+        like a spreadsheet
+        rows
+            tuples, records
+        columns
+            atrributes, fields
+        unique id: primary key
+        
+        
+CRUD
+    create read update delete

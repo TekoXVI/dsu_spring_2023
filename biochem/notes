@@ -1,0 +1,424 @@
+Biochemistry
+
+DNA vs RNA
+    deoxygenated at the 2' position
+    thymine vs uracil
+    rna autocleaves and is unstable
+        stops synthesis
+        
+    cytosine
+        spontaneously deaminates into uracil
+            gets repaired
+                if not, mutation
+                    gets paired with A
+                    goes from GC to AT
+    ribosymes
+        cleaves nucleic acid
+    tRNA 
+        translational RNA
+        reads mRNA and translates it
+        
+    RNA and DNA might not pair the way we predict
+ 
+Genomics
+     coding region
+         
+     promoter region
+         trascription factor binding sites
+         
+     exon shuffling
+         new combo from introns from neighboring genes through replication
+             generates two new genes
+     alternative splicing
+         when we cut out the introns
+             makes new combos of exons together
+                 results in different proteins
+                 
+     mutations
+         snp: single nucleotide polymorphisms
+             one mutation
+                 deletion, insertion, swap
+                     frameshift
+         str: short tandem repeats
+             deletions and insertions in the genome
+         vntr: variable number tandem repeats
+             repeats of a core sequence
+             can be used in a forensic applications
+                 only hair root has dna
+     
+     precision medicine
+     
+     plasmids
+         self replicating pieces of DNA
+         can carry genetic info thats not in chromosomal DNA
+         found in pro and eukaryotic organisms
+         
+     cDNA: complementary DNA 
+         generated from mRNA by reverse trascroptase
+             goes from RNA to DNA
+             
+     high throughput DNA sequencing
+         uses ddNTPs (dideoxynucleoside triphosphates)
+         generates chain termination DNA molecules
+         uses fluorescently labeled ddNTPs
+         followed by capillary gel electrophoresis
+     
+     Sanger
+         need:
+             enzyme dna polymerase
+             primer, small peice of dna
+             nucleotides
+         some wont incorporate any fluorescent nucleotides
+         eventually you get a nucleotide thats dd at every position
+         stops continuation of growth because they do it through the 3' OH
+             which is removed
+     
+     PCR
+         increases 2^n each cycle
+         
+
+    next gen sequencing
+        rna to cdna
+        amplify with pcr
+        sequence the cdna
+        compare sequences to the genome for what you're growing
+        no bias or limits
+        
+    crispr-cas9
+        clustered regularly interspersed short palindromic repeats
+        
+        
+
+
+use a BAA table when you don't only have HA
+    like when you're adding NaOH to find a new pH
+    
+------------------------------------------------------------------------
+
+hydrophobic residues face inward
+    unless they're in a membrane
+    
+dalton == gram/mole
+
+HA pKa = 4.76
+    ph < pKa: protonated
+    ph > pKa: deprotonated
+    
+    amino acids are drawn at pH 7
+
+heterotrimeric protein complex:
+    each subunit is different and there are 3
+    
+homodimeric
+    2 of the same
+    
+all AAs are chiral except glycine
+
+L==S, D==R for all except cysteine
+    
+
+AMINO ACIDS
+--------------
+Charged
+    Negative
+        Aspartate
+            Asp, D
+            3.9
+        Glutamate
+            Glu, E
+            4.1
+    Positive
+        Histidine
+            His, H
+            6.0
+                N without the H gets protonated
+        Lysine
+            Lys, K
+            10.5
+        Arginine
+            Arg, R
+            12.5
+        
+Hydrophilic
+    Serine
+        Ser, S
+    Threonine
+        Thr, T
+    Cysteine
+        Cys, C
+            pKa 8.3, neutral at pH 7
+            weak acid
+            can form a disulfide bridge
+                stabilizes the 3d structure of a protein
+    Asparagine
+        Asn, N
+    Glutamine
+        Gln, Q
+
+Hydrophobic
+    Glycine
+        Gly, G
+    Alanine
+        Ala, A
+    Proline
+        Pro, P
+    Valine
+        Val, V
+    Leucine
+        Leu, L
+    Isoleucine
+        Ile, I
+    Methionine
+        Met, M
+
+Aromatic
+    Phenylalanine
+        Phe, F
+    Tyrosine
+        Tyr, Y
+            pKa 10.1
+    Tryptophan
+        Trp, W
+
+
+
+kinases are enzymes that add a phosphate group to a protein
+    ATP is the phosphate donor
+    commonly occurs with ser and thr
+phosphatases remove the phosphate group
+
+Ionizable hydrogens
+    carboxyl group: 3.1
+    Amino group: 9.0
+
+
+isoelectric point (pI)
+    pH at which the AA exists as a zwitterion (electrically neutral)
+    
+    Lysine: 	2.1 	9.7 	10.1
+        pH		
+        0		0 		+1 		+1 		+2
+        2.1 	-1 		+1 		+1 		+1 
+        9.7 	-1		0 		+1 		0
+        10.1 	-1		0 		0 		-1
+        
+        (9.7+10.1)/2 = 9.9
+        
+        
+
+formation of peptide bonds
+    condensation between amine and carboxylic acid groups
+        water is a product
+    hydrolysis breaks apart the peptide bond
+        catalyzed by proteases
+        
+    KA at pH 7
+        lysine - alanine
+        10.5
+        
+levels of protein structure
+    primary
+        amino acids written out
+    secondary
+        beta strands
+        alpha helices
+            right handed coil
+            stabilized by h bonds
+            3.6 residues per turn
+                carbonyl oxygen -> amine H 4 away
+        beta turns
+        undefined shape
+        
+    tertiary
+        
+        
+        
+        
+        
+KYENH
+    lysine tyrosine glutamate asparagine histidine
+    10.5 	10.1 		4.1 	 -  		6.0
+7 	 +1 	 -1         0        0           0           0
+11   0       0          0        0           0           0  
+
+
+
+RYH
+    arganine tyrosine histidine
+      12.5     10.1      6.0
+0     
+
+
+chaperone proteins
+    help proteins fold by rescuing improper folds
+    disrupt aggregates
+    
+    clamp type  
+        heat shock proteins
+        folds over the misfold
+        hydrolyse atp to get it fold correctly
+    chamber type
+        GroEL-GroES protein complex
+        chamber on top and bottom
+        atp is continuously hydrolysed to reorient the protein
+        
+cooperativity in protein folding 
+    once a protein starts folding, the rest naturally happens
+    models
+        hydrophobic collapse
+            hydrophobic AAs go to the inside
+        framework
+            localized 2' structure lead to 3' structure
+        nucleation
+            form partial 3' shapes along the chain that assemble into fully folded protein
+            
+    aggregation of protein == gain of function
+    degredation of protein == loss of function
+    
+    
+CHAPTER 5
+
+cell fragmentation
+    cells are broken open by:
+        sonication
+        shearing
+        incubation with mild detergent
+    then we centrifuge
+        depending on how fast/long you spin, you can separate different fractions or masses
+        
+    au is moles per time
+    
+
+
+Column chromatography
+
+    gel filtration/size exclusion
+        beads make large proteins travel faster becuase they dont get stuck in the pores
+    
+        HPLC: high pressure liquid chromatography
+        
+    ion exchange
+        opposite charge elutes last
+        cation exchange has negative beads
+            cations exchange for another cation
+        anion exchange has positive beads to catch anions
+                    
+                        size    pI
+            protein  A  25      4
+                     B  75      6
+                     C  50      8
+                     
+                buffer with pH 5 what order in anion exchange chromatography?
+                    beads have positive charge
+                    
+                    pH 5 means A is negative, B is positive, C is more positive
+                    
+                    answer: C elutes first because its least attracted to the positive beads
+                    
+    affinity 
+        lactate dehydrogenase converts pyruvate to lactase
+            uses nadh
+                oxidizes to nad+
+                
+                
+gel electrophoresis separates bases on mass
+    polyacrilamide gel electrophoresis (PAGE)
+    cathode (-) to anode (+) travel direction
+    
+    small proteins migrate further than large ones
+    
+    SDS-PAGE
+        protein is coated in sds (-)
+        
+        % polyacrilamide
+            low % means looser weave
+                small go through easily
+                good for big things
+            high % is good at separating small proteins
+    
+    
+antibodies
+    purify the antigen-specific antibodies using affinity chromatography
+    
+    
+ELISA: enzyme-linked immunosorbent assay
+    quantitative
+    uses horzeradish peroxidase
+    fluorescense is meausured in the plate reader
+    
+isoelectric focusing
+    separates proteins based on pI
+    
+    low pH close to positive terminal
+    high pH close to negative terminal
+    
+    higher pI migrate towards negative terminal (high pH)
+    lower pI migrate towards positive terminal (low pH)
+    
+    they stop at pH == pI
+    
+2D gel electrophoresis
+    isoelectric focusing combined with sds page
+        pI and molar mass
+        
+        
+                low pI ------------------------> high pI
+    high mass
+        |
+        |
+        |
+        |
+        |
+        |
+        |
+        |
+        V
+    low mass
+    
+
+
+protein cleavage (all cleave at c side)
+    trypsin
+        lys and arg
+            RK
+    chymotrypsin
+        tyr, trp, and phe (aromatics)
+            FYW
+    cyanogen bromide
+        met
+            M
+    s. aureus
+        asp, glu
+            AG
+            
+            
+        K,P,E,D,F,L,R
+        n terminal: L
+    RK  trypsin: (K,F,L), (P,R,D), E
+    AG  s. aureus: (K,F,L,D) and (E,P,R)
+        c terminal: E
+        
+        L F K D P R E
+        _ _ _ _ _ _ _
+    
+
+
+solid phase peptide synthesis
+    start from c terminal
+    covalent bond between bead on c end
+    fmoc prevents anything from reacting at the amine
+    bring AAs together by removind fmoc from one,
+        add DCC to the other, replacing OH of c end
+            DCC is the leaving group
+    remove fmoc
+    remove resin
+    
+
+protein structure determination
+    X-ray crystallography
+        xray through a crystal to see electron density
+    NMR: Nuclear magnetic resonance spectroscopy 
+        looks at magnetic properties of H, N, and C
+        nuclear spins are aligned
+            only works on proteins less than 100 kDa
+        reveals dynamic structure 

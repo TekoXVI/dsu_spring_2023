@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<h1 id="my-heading" class="center">Rock Paper Scissors</h1>
+		<div id="choice-heading" class="center">Click one to play: </div>
+		<div id="rps-buttons" class="center buttons">
+			<button id="rock-button" class="button">ROCK</button>
+			<button id="paper-button" class="button">PAPER</button>
+			<button id="scissors-button" class="button">SCISSORS</button>
+		</div>
+		
+		<div id="choice-displays" class="center a">
+			<div id="player-choice" class="inline">Player Choice: 
+				<div id="pchoice-display"> ?  </div>
+			</div>
+			<div id="computer-choice" class="inline"> Computer Choice: 
+				<div id="comchoice-display"> ? </div>
+			</div>
+		</div>
+		
+		<div id="results" class="center b"> Result: 
+			<div id="result-display"> ? </div>
+		</div>
+		
+		<div id="tally" class="center c"> 
+			<div id="win-count" class="inline">Wins: 
+				<div id="win-count-display">0</div>
+			</div>
+			<div id="lose-count" class="inline">Losses: 
+				<div id="lose-count-display">0</div>
+			</div>
+			<div id="tie-count" class="inline">Ties: 
+				<div id="tie-count-display">0</div>
+			</div>
+		</div>
+		
+		<div id="previous-games" class="center"> Previous Games: 
+			<ol id="previous-games-list" class="center"></ol>
+		</div>
+			
+		<script src="rps_app.js"></script>
+	</body>
+</html>

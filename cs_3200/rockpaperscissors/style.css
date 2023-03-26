@@ -1,0 +1,42 @@
+body {
+	background-color: lightblue;
+}
+div {
+	padding: 10px;
+}
+.inline {
+	display: inline-block;
+}
+.center {
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
+.buttons {
+	background-image: url("rockpaperscissors.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 105px;
+	width: 300px;
+	border-style: solid;
+	border-radius: 10px;
+}
+.button {
+	width: ;
+	height: 100%;
+	opacity: 0;
+}
+.a, .b, .c {
+	border-style: solid;
+	width: 300px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+ol {
+	width: 300px;
+	text-align: left; 
+	list-style-position: inside;
+	display: table;
+	margin: 0;
+	padding: 0;
+}
